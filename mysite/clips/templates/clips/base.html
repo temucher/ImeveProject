@@ -11,19 +11,7 @@
     <div>
         <h1 id="title">Imeve Project</h1>
     </div>
-
-    {% for clip in clips %}
-        <div class="clips">
-            <video width="320" height="240" controls>
-                <source src="{{ clip.file_path }}" type="video/mp4">
-            </video>
-            <p>Scene: {{ clip.scene }}</p>
-            <p>Take: {{ clip.take }}</p>
-            <p>Star Rating: {{ clip.starRating }}</p>
-        </div>
-
-    {% endfor %}
-
-
+    {% block content %}
+    {% endblock %}
 </body>
 </html>

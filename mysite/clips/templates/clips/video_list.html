@@ -1,0 +1,13 @@
+{% extends 'clips/base.html' %}
+
+{% block content %}
+    {% for clip in clips %}
+        <div class="clips">
+            <h3><a href="{% url 'video_detail' pk=clip.pk %}">Scene: {{ clip.scene }}</a></h3>
+            <p>Take: {{ clip.take }}</p>
+            <p>Star Rating: {{ clip.starRating }}</p>
+            <p>360 Video: {{ clip.is360video }}</p>
+            <p>path: {{ clip.file_path }}</p>
+        </div>
+    {% endfor %}
+{% endblock %}
