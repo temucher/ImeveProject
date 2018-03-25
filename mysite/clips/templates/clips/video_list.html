@@ -1,13 +1,27 @@
 {% extends 'clips/base.html' %}
+{% load static from staticfiles %}
 
 {% block content %}
     {% for clip in clips %}
-        <div class="clips">
-            <h3><a href="{% url 'video_detail' pk=clip.pk %}">Scene: {{ clip.scene }}</a></h3>
-            <p>Take: {{ clip.take }}</p>
-            <p>Star Rating: {{ clip.starRating }}</p>
-            <p>360 Video: {{ clip.is360video }}</p>
-            <p>path: {{ clip.file_path }}</p>
-        </div>
+        <a href="{% url 'video_detail' pk=clip.pk %}">
+            <div class="container">
+                <div class="clips">
+                    <video width="320" height="240" controls>
+                        <source src="{% static clip.file_path %}" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </a>
     {% endfor %}
 {% endblock %}
+
+<!--
+<div class="metadata">
+                    <p>Clip: {{ clip.pk }}</p>
+                    <p>Scene: {{ clip.scene }}</p>
+                    <p>Take: {{ clip.take }}</p>
+                    <p>Star Rating: {{ clip.starRating }}</p>
+                    <p>360 Video: {{ clip.is360video }}</p>
+                    <p>path: {{ clip.file_path }}</p>
+                </div>
+-->

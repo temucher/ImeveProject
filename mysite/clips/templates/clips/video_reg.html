@@ -10,7 +10,9 @@
 
     <body>
         <div>
-            <h1 id="title">Imeve Project</h1>
+            <a href="{% url 'video_list' %}">
+                <img id="title" src="{% static 'clips/images/Imeve_Logo_Orange.png' %}">
+            </a>
         </div>
         <div class="clips">
             <video width="320" height="240" controls>

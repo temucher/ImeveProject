@@ -9,16 +9,19 @@
         <link rel="stylesheet" href="{% static 'clips/css/base.css' %}">
         <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
         <script src="{% static 'clips/js/play-on-window-click.js' %}"></script>
+        <script src="{% static 'clips/js/toggle-play-on-window-click.js' %}"></script>
         <script src="{% static 'clips/js/play-on-vrdisplayactivate-or-enter-vr.js' %}"></script>
     </head>
 
     <body>
         <div>
-            <h1 id="title">Imeve Project</h1>
+            <a href="{% url 'video_list' %}">
+                <img id="title" src="{% static 'clips/images/Imeve_Logo_Orange.png' %}">
+            </a>
         </div>
         <div class="clips">
             <a-scene embedded>
-                <a-videosphere src="#360video" play-on-window-click play-on-vrdisplayactivate-or-enter-vr></a-videosphere>
+                <a-videosphere src="#360video" toggle-play-on-window-click play-on-vrdisplayactivate-or-enter-vr></a-videosphere>
                 <a-assets>
                     <video id="360video" width="320" height="240" controls playsinline>
                         <source src="{% static clip.file_path %}" type="video/mp4">
@@ -26,6 +29,7 @@
                 </a-assets>
             </a-scene>
         </div>
+
         <p>path: {{ clip.file_path }}</p>
         <p>Scene: {{ clip.scene }}</p>
         <p>Take: {{ clip.take }}</p>
