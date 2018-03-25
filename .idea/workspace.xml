@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c89b617-a13b-4ef8-98ff-7dd63bf9cdfe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/clips/models.py" afterPath="$PROJECT_DIR$/mysite/clips/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/clips/static/clips/css/base.css" afterPath="$PROJECT_DIR$/mysite/clips/static/clips/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/clips/templates/clips/base.html" afterPath="$PROJECT_DIR$/mysite/clips/templates/clips/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/clips/templates/clips/video_360.html" afterPath="$PROJECT_DIR$/mysite/clips/templates/clips/video_360.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/clips/templates/clips/video_list.html" afterPath="$PROJECT_DIR$/mysite/clips/templates/clips/video_list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/clips/templates/clips/video_reg.html" afterPath="$PROJECT_DIR$/mysite/clips/templates/clips/video_reg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/clips/urls.py" afterPath="$PROJECT_DIR$/mysite/clips/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/clips/views.py" afterPath="$PROJECT_DIR$/mysite/clips/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,13 +16,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/clips/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+            <state relative-caret-position="315">
+              <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding>
-                <element signature="e#0#54#0" expanded="true" />
+                <element signature="e#0#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -34,8 +31,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/clips/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="68" lean-forward="false" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -73,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video_reg.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="video_reg.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/clips/templates/clips/video_reg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="91" lean-forward="false" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+            <state relative-caret-position="300">
+              <caret line="20" column="93" lean-forward="true" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -86,8 +83,8 @@
       <file leaf-file-name="video_360.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/clips/templates/clips/video_360.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="125" lean-forward="true" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="125" />
+            <state relative-caret-position="450">
+              <caret line="30" column="89" lean-forward="false" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -128,15 +125,15 @@
         <option value="$PROJECT_DIR$/mysite/mysite/settings.py" />
         <option value="$PROJECT_DIR$/mysite/clips/static/clips/js/play-on-vrdisplayactivate-or-enter-vr.js" />
         <option value="$PROJECT_DIR$/mysite/clips/static/clips/js/lay-on-window-click.js" />
-        <option value="$PROJECT_DIR$/mysite/clips/urls.py" />
         <option value="$PROJECT_DIR$/mysite/clips/static/clips/js/toggle-play-on-window-click.js" />
         <option value="$PROJECT_DIR$/mysite/clips/models.py" />
-        <option value="$PROJECT_DIR$/mysite/clips/views.py" />
         <option value="$PROJECT_DIR$/mysite/clips/templates/clips/video_list.html" />
         <option value="$PROJECT_DIR$/mysite/clips/templates/clips/base.html" />
         <option value="$PROJECT_DIR$/mysite/clips/static/clips/css/base.css" />
-        <option value="$PROJECT_DIR$/mysite/clips/templates/clips/video_360.html" />
+        <option value="$PROJECT_DIR$/mysite/clips/urls.py" />
         <option value="$PROJECT_DIR$/mysite/clips/templates/clips/video_reg.html" />
+        <option value="$PROJECT_DIR$/mysite/clips/templates/clips/video_360.html" />
+        <option value="$PROJECT_DIR$/mysite/clips/views.py" />
       </list>
     </option>
   </component>
@@ -387,38 +384,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/clips/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/clips/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="67" lean-forward="false" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/clips/static/clips/js/toggle-play-on-window-click.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/clips/templates/clips/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -431,14 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/clips/templates/clips/video_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="109" lean-forward="false" selection-start-line="7" selection-start-column="109" selection-end-line="7" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/clips/static/clips/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -447,19 +408,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/clips/templates/clips/video_360.html">
+    <entry file="file://$PROJECT_DIR$/mysite/clips/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="125" lean-forward="true" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="125" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="5" column="68" lean-forward="false" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/clips/templates/clips/video_reg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="91" lean-forward="false" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+        <state relative-caret-position="300">
+          <caret line="20" column="93" lean-forward="true" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="93" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/clips/templates/clips/video_360.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="89" lean-forward="false" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/clips/templates/clips/video_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="109" lean-forward="false" selection-start-line="7" selection-start-column="109" selection-end-line="7" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/clips/templates/clips/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/clips/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

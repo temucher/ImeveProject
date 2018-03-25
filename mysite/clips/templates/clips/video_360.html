@@ -28,7 +28,9 @@
                 </a-assets>
             </a-scene>
         </div>
-
+        <form action="{% url 'video_delete' pk=clip.pk %}" method="POST">{% csrf_token %}
+            <button type="submit">Delete</button>
+        </form>
         <p>path: {{ clip.file_path }}</p>
         <p>Scene: {{ clip.scene }}</p>
         <p>Take: {{ clip.take }}</p>
