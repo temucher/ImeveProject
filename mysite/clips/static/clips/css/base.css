@@ -1,28 +1,38 @@
 #title {
     margin-left: 30px;
     margin-bottom: 30px;
+    margin-top: 15px;
+    width: 400px;
 }
+
+#title_img {
+    width: 100%;
+    height: auto;
+}
+
 
 .container {
-    border-width: 3px;
-    border-style: solid;
     padding-top: 10px;
-    padding-left: 10px;
     padding-bottom: 10px;
-    padding-right: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
-    margin-right: 10px;
-}
-
-.clips {
-    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
     width: 320px;
 }
 
+.clips {
+    width: 320px;
+    display: block;
+    margin: 0 auto;
+    width: 1280px;
+    height: 720px;
+}
+
 .metadata {
-    position: relative;
     right: 0;
+    margin-left: 100px;
+    display: inline-block;
 }
 
 

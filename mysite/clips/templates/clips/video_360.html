@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="{% static 'clips/css/base.css' %}">
         <script src="https://aframe.io/releases/0.7.1/aframe.min.js"></script>
         <script src="{% static 'clips/js/play-on-window-click.js' %}"></script>
-        <script src="{% static 'clips/js/toggle-play-on-window-click.js' %}"></script>
         <script src="{% static 'clips/js/play-on-vrdisplayactivate-or-enter-vr.js' %}"></script>
     </head>
 
@@ -21,9 +20,9 @@
         </div>
         <div class="clips">
             <a-scene embedded>
-                <a-videosphere src="#360video" toggle-play-on-window-click play-on-vrdisplayactivate-or-enter-vr></a-videosphere>
+                <a-videosphere src="#360video" play-on-vrdisplayactivate-or-enter-vr></a-videosphere>
                 <a-assets>
-                    <video id="360video" width="320" height="240" controls playsinline>
+                    <video id="360video" width="1280" height="720" controls playsinline poster="{% static clip.thumb_path %}">
                         <source src="{% static clip.file_path %}" type="video/mp4">
                     </video>
                 </a-assets>

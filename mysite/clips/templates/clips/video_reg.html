@@ -15,7 +15,7 @@
             </a>
         </div>
         <div class="clips">
-            <video width="320" height="240" controls>
+            <video width="1280" height="720" controls poster="{% static clip.thumb_path %}">
                 <source src="{% static clip.file_path %}" type="video/mp4">
             </video>
             <p>path: {{ clip.file_path }}</p>
