@@ -19,6 +19,7 @@
             </a>
         </div>
         <div class="clips">
+
             <a-scene embedded>
                 <a-videosphere src="#360video" play-on-vrdisplayactivate-or-enter-vr></a-videosphere>
                 <a-assets>
@@ -27,14 +28,30 @@
                     </video>
                 </a-assets>
             </a-scene>
+
         </div>
-        <form action="{% url 'video_delete' pk=clip.pk %}" method="POST">{% csrf_token %}
-            <button type="submit">Delete</button>
-        </form>
-        <p>path: {{ clip.file_path }}</p>
-        <p>Scene: {{ clip.scene }}</p>
-        <p>Take: {{ clip.take }}</p>
-        <p>Star Rating: {{ clip.starRating }}</p>
-        <p>360 Video: {{ clip.is360video }}</p>
+
+        <div class="meta_container">
+            <div class="metadata">
+                <form action="{% url 'video_delete' pk=clip.pk %}" method="POST">{% csrf_token %}
+                    <button type="submit">Delete</button>
+                </form>
+            </div>
+            <div class="metadata">
+                <p>Scene: {{ clip.scene }}</p>
+            </div>
+            <div class="metadata">
+                <p>Take: {{ clip.take }}</p>
+            </div>
+            <div class="metadata">
+                <p>Star Rating: {{ clip.starRating }}</p>
+            </div>
+
+        </div>
+
+        <div class="bottom">
+                <p>Made with love by Teagan Mucher at Occidental College | <a href="https://github.com/temucher/ImeveProject">Code</a></p>
+        </div>
+
     </body>
 </html>

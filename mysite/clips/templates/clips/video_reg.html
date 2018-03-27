@@ -6,6 +6,7 @@
         <title>Imeve Project</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="{% static 'clips/css/base.css' %}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
@@ -15,17 +16,32 @@
             </a>
         </div>
         <div class="clips">
-            <video width="1280" height="720" controls poster="{% static clip.thumb_path %}">
+
+            <video width="640" height="360" controls poster="{% static clip.thumb_path %}">
                 <source src="{% static clip.file_path %}" type="video/mp4">
             </video>
+
+        </div>
+        <div class="meta_container">
+            <div class="metadata">
             <form action="{% url 'video_delete' pk=clip.pk %}" method="POST">{% csrf_token %}
                 <button type="submit">Delete</button>
             </form>
-            <p>path: {{ clip.file_path }}</p>
-            <p>Scene: {{ clip.scene }}</p>
-            <p>Take: {{ clip.take }}</p>
-            <p>Star Rating: {{ clip.starRating }}</p>
-            <p>360 Video: {{ clip.is360video }}</p>
+            </div>
+            <div class="metadata">
+                <p>Scene: {{ clip.scene }}</p>
+            </div>
+            <div class="metadata">
+                <p>Take: {{ clip.take }}</p>
+            </div>
+            <div class="metadata">
+                <p>Star Rating: {{ clip.starRating }}</p>
+            </div>
+        </div>
+
+
+        <div class="bottom">
+            <p>Made with love by Teagan Mucher at Occidental College | <a href="https://github.com/temucher/ImeveProject">Code</a></p>
         </div>
     </body>
 </html>

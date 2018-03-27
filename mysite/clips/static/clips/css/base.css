@@ -10,32 +10,46 @@
     height: auto;
 }
 
+a-videosphere {
+    display: block
+    width: 50%;
+}
 
 .container {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 15px;
     display: inline-block;
     box-sizing: border-box;
     width: 320px;
 }
 
 .clips {
-    width: 320px;
     display: block;
     margin: 0 auto;
-    width: 1280px;
-    height: 720px;
+    width: 640px;
+    height: 360px;
 }
 
 .metadata {
     right: 0;
-    margin-left: 100px;
+    margin-left: 50px;
     display: inline-block;
 }
 
+.meta_container {
+    margin-left: 30%;
+    margin-right: 30%;
+}
 
+.bottom {
+    position: fixed;
+    bottom: 0;
+    display: block;
+    width: 50%;
+    margin: auto;
+}
 
 body {
     background-color: #666666;

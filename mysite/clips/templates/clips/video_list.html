@@ -5,7 +5,7 @@
     {% for clip in clips %}
         <a href="{% url 'video_detail' pk=clip.pk %}">
             <div class="container">
-                <img src="{% static clip.thumb_path %}" alt="Oh no where is the image" width="300" height="220">
+                <img src="{% static clip.thumb_path %}" alt="Oh no where is the image" width="320" height="220">
             </div>
         </a>
     {% endfor %}
