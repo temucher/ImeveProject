@@ -25,7 +25,7 @@ SECRET_KEY = '=$@(ybpxvktn6jn@)+*g2f1%ec1!0d_kek^9wh)sp8(&^)y+!)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'tjsmuch.pythonanywhere.com', '0.0.0.0']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'temucher.pythonanywhere.com', '0.0.0.0']
 
 
 # Application definition
