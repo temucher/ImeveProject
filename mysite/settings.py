@@ -79,8 +79,8 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ImeveProject',
-        'USER': 'name',
+        'NAME': 'imeve',
+        'USER': 'teagan',
         'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '',
