@@ -15,6 +15,10 @@ a-videosphere {
     width: 50%;
 }
 
+#disclaimer {
+    text-align: center;
+}
+
 .container {
     padding-top: 10px;
     padding-bottom: 10px;
